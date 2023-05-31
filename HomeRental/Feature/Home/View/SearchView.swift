@@ -24,7 +24,7 @@ struct SearchView: View {
                     RoundedRectangle(cornerRadius: 10)
                         .foregroundColor(Color.chip)
                 )
-                FilterButton()
+                ImageButton(image: "filter")
             }
         }
     }

@@ -33,15 +33,16 @@ struct HomeDetailScreen: View {
                         .frame(height: 300)
                     // MARK: RectangleView
                     Rectangle()
-                        .frame(height: 50)
+                        .frame(height: 80)
                         .hidden()
                 }
             }
             HomeDetailRentView()
                 .padding(5)
                 .background(.white)
+                .offset(y: -30)
         }
-        .padding()
+        .padding([.leading, .trailing], 20)
         .edgesIgnoringSafeArea(.bottom)
         .navigationBarBackButtonHidden(true)
     }

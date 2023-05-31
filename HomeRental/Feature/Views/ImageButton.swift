@@ -7,12 +7,17 @@
 
 import SwiftUI
 
-struct FilterButton: View {
+struct ImageButton: View {
+    
+    var image: String
+    var onClick: (() -> Void)? = nil
+    
     var body: some View {
         Button {
-            
+            onClick?()
         } label: {
-            Image("filter")
+            Image(image)
+                .tint(.white)
         }
         .frame(width: 48, height: 48)
         .background(
@@ -24,6 +29,6 @@ struct FilterButton: View {
 
 struct FilterButton_Previews: PreviewProvider {
     static var previews: some View {
-        FilterButton()
+        ImageButton(image: "filter")
     }
 }

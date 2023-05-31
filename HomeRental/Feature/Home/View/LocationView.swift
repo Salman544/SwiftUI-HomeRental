@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct LocationView: View {
+    
+    @Binding var menuTapped: Bool
+    
     var body: some View {
         HStack {
+            ImageButton(image: "menu") {
+                withAnimation {
+                    menuTapped.toggle()
+                }
+            }
             VStack(alignment: .leading, spacing: 2) {
                 Text("Location")
                     .foregroundColor(.text)
@@ -22,9 +30,11 @@ struct LocationView: View {
                             .raleway(.medium, 26)
                         Image(systemName: "chevron.down")
                     }
+                    
                 }
                 .foregroundColor(.black)
             }
+            .disabled(menuTapped)
             
             Spacer()
             
@@ -40,6 +50,6 @@ struct LocationView: View {
 
 struct LocationView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationView()
+        LocationView(menuTapped: .constant(false))
     }
 }

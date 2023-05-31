@@ -9,20 +9,22 @@ import SwiftUI
 
 struct HomeScreen: View {
     
-    private var filterItems = [
+    @State var selectedFilterItem: String = "House"
+    @Binding var menuTapped: Bool
+    
+    var filterItems = [
         "House", "Apartment", "Hotel", "Villa", "Cottage", "Student"
     ]
     
-    @State var selectedFilterItem: String = "House"
-    
     var body: some View {
         NavigationView {
-            ScrollView(showsIndicators: false) {
+            ScrollView(menuTapped ? [] : .vertical, showsIndicators: false) {
                 LazyVStack(spacing: 20) {
                     // MARK: LocationView
-                    LocationView()
+                    LocationView(menuTapped: $menuTapped)
                     // MARK: SearchView
                     SearchView()
+                        .disabled(menuTapped)
                     // MARK: FilterList
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
@@ -33,6 +35,7 @@ struct HomeScreen: View {
                             }
                         }
                     }
+                    .disabled(menuTapped)
                     // MARK: NearForYouView
                     ListHeaderView(title: "Near from you")
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -47,11 +50,14 @@ struct HomeScreen: View {
                             }
                         }
                     }
+                    .disabled(menuTapped)
                     // MARK: BestForYou
                     ListHeaderView(title: "Best for you")
+                        .disabled(menuTapped)
                     ForEach(0...50, id: \.self) {_ in
                         BestForYouView()
                     }
+                    .disabled(menuTapped)
                 }
             }
         }
@@ -62,6 +68,6 @@ struct HomeScreen: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen()
+        HomeScreen(menuTapped: .constant(false))
     }
 }
