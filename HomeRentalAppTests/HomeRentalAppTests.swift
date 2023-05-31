@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import HomeRentalApp
+@testable import HomeRental
 
 final class HomeRentalAppTests: XCTestCase {
 

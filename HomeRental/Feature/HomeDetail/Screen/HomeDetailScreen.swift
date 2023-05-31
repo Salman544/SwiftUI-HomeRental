@@ -8,8 +8,42 @@
 import SwiftUI
 
 struct HomeDetailScreen: View {
+    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottom) {
+            ScrollView(showsIndicators: false) {
+                VStack(spacing: 20) {
+                    // MARK: HomeDetailCard
+                    HomeDetailCard {
+                        presentationMode.wrappedValue.dismiss()
+                    } bookmarkButtonClicked: {
+                        print("bookmark button cliked")
+                    }
+                    .frame(width: screenWidth - 30)
+                    // MARK: DesciptionView
+                    DescriptionView()
+                    // MARK: HomeOwnerView
+                    HomeOwnerView()
+                    // MARK: GalleryView
+                    HomeDetailGalleryView()
+                    // MARK: MapView
+                    HomeDetailMapView()
+                        .frame(height: 300)
+                    // MARK: RectangleView
+                    Rectangle()
+                        .frame(height: 50)
+                        .hidden()
+                }
+            }
+            HomeDetailRentView()
+                .padding(5)
+                .background(.white)
+        }
+        .padding()
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

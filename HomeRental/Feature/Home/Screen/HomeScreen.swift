@@ -1,6 +1,6 @@
 //
-//  HomeView.swift
-//  PickUpApp
+//  HomeScreen.swift
+//  HomeRentalApp
 //
 //  Created by Muhammad Salman on 5/29/23.
 //
@@ -39,7 +39,7 @@ struct HomeScreen: View {
                         LazyHGrid(rows: [GridItem(.flexible())]) {
                             HStack(spacing: 10) {
                                 ForEach(0...50, id: \.self) { item in
-                                    NavigationLink(destination: EmptyView()) {
+                                    NavigationLink(destination: HomeDetailScreen()) {
                                         NearFromYouCard()
                                     }
                                     .buttonStyle(FlatLinkStyle())

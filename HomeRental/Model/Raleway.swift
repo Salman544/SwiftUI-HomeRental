@@ -1,6 +1,6 @@
 //
 //  Raleway.swift
-//  PickUpApp
+//  HomeRentalApp
 //
 //  Created by Muhammad Salman on 5/29/23.
 //

@@ -16,14 +16,14 @@
 		70105BB12A26158400A06969 /* NearFromYouCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70105BB02A26158400A06969 /* NearFromYouCard.swift */; };
 		70105BB32A261E7700A06969 /* BestForYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70105BB22A261E7700A06969 /* BestForYouView.swift */; };
 		70105BB52A2624CB00A06969 /* FlatLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70105BB42A2624CB00A06969 /* FlatLinkStyle.swift */; };
-		707AD4D52A24CAA90037DC42 /* PickUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4D42A24CAA90037DC42 /* PickUpApp.swift */; };
+		707AD4D52A24CAA90037DC42 /* HomeRentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4D42A24CAA90037DC42 /* HomeRentalApp.swift */; };
 		707AD4D72A24CAA90037DC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4D62A24CAA90037DC42 /* ContentView.swift */; };
 		707AD4D92A24CAAA0037DC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707AD4D82A24CAAA0037DC42 /* Assets.xcassets */; };
 		707AD4DC2A24CAAA0037DC42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707AD4DB2A24CAAA0037DC42 /* Preview Assets.xcassets */; };
-		707AD4E62A24CAAA0037DC42 /* PickUpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4E52A24CAAA0037DC42 /* PickUpAppTests.swift */; };
-		707AD4F02A24CAAA0037DC42 /* PickUpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4EF2A24CAAA0037DC42 /* PickUpAppUITests.swift */; };
-		707AD4F22A24CAAA0037DC42 /* PickUpAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4F12A24CAAA0037DC42 /* PickUpAppUITestsLaunchTests.swift */; };
-		707AD5032A24CCA90037DC42 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD5022A24CCA90037DC42 /* HomeView.swift */; };
+		707AD4E62A24CAAA0037DC42 /* HomeRentalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4E52A24CAAA0037DC42 /* HomeRentalAppTests.swift */; };
+		707AD4F02A24CAAA0037DC42 /* HomeRentalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4EF2A24CAAA0037DC42 /* HomeRentalAppUITests.swift */; };
+		707AD4F22A24CAAA0037DC42 /* HomeRentalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD4F12A24CAAA0037DC42 /* HomeRentalAppUITestsLaunchTests.swift */; };
+		707AD5032A24CCA90037DC42 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD5022A24CCA90037DC42 /* HomeScreen.swift */; };
 		707AD5062A24D11C0037DC42 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD5052A24D11C0037DC42 /* LocationView.swift */; };
 		707AD51A2A24D2370037DC42 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707AD5082A24D2370037DC42 /* Raleway-Thin.ttf */; };
 		707AD51B2A24D2370037DC42 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707AD5092A24D2370037DC42 /* Raleway-ExtraBold.ttf */; };
@@ -46,6 +46,15 @@
 		707AD52F2A24D3AF0037DC42 /* Raleway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD52E2A24D3AF0037DC42 /* Raleway.swift */; };
 		707AD5322A24D52D0037DC42 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707AD5312A24D52D0037DC42 /* View+Extension.swift */; };
 		707AD5352A24D5CB0037DC42 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707AD5342A24D5CB0037DC42 /* Color.xcassets */; };
+		709164672A2749BD00AAD66B /* HomeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709164662A2749BD00AAD66B /* HomeDetailScreen.swift */; };
+		709164692A2749DA00AAD66B /* HomeDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709164682A2749DA00AAD66B /* HomeDetailCard.swift */; };
+		70A1BD122A274C4800E310A8 /* RoundedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD112A274C4800E310A8 /* RoundedButtonView.swift */; };
+		70A1BD142A2758FD00E310A8 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD132A2758FD00E310A8 /* DescriptionView.swift */; };
+		70A1BD162A27609000E310A8 /* HomeOwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD152A27609000E310A8 /* HomeOwnerView.swift */; };
+		70A1BD182A27633C00E310A8 /* HomeDetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD172A27633C00E310A8 /* HomeDetailMapView.swift */; };
+		70A1BD1A2A27651700E310A8 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD192A27651700E310A8 /* City.swift */; };
+		70A1BD1E2A2766E800E310A8 /* HomeDetailRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD1D2A2766E800E310A8 /* HomeDetailRentView.swift */; };
+		70A1BD202A2769BB00E310A8 /* HomeDetailGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1BD1F2A2769BB00E310A8 /* HomeDetailGalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,17 +84,17 @@
 		70105BB02A26158400A06969 /* NearFromYouCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearFromYouCard.swift; sourceTree = "<group>"; };
 		70105BB22A261E7700A06969 /* BestForYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestForYouView.swift; sourceTree = "<group>"; };
 		70105BB42A2624CB00A06969 /* FlatLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatLinkStyle.swift; sourceTree = "<group>"; };
-		707AD4D12A24CAA90037DC42 /* PickUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		707AD4D42A24CAA90037DC42 /* PickUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpApp.swift; sourceTree = "<group>"; };
+		707AD4D12A24CAA90037DC42 /* HomeRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AD4D42A24CAA90037DC42 /* HomeRentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalApp.swift; sourceTree = "<group>"; };
 		707AD4D62A24CAA90037DC42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		707AD4D82A24CAAA0037DC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		707AD4DB2A24CAAA0037DC42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		707AD4E12A24CAAA0037DC42 /* PickUpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		707AD4E52A24CAAA0037DC42 /* PickUpAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAppTests.swift; sourceTree = "<group>"; };
-		707AD4EB2A24CAAA0037DC42 /* PickUpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		707AD4EF2A24CAAA0037DC42 /* PickUpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAppUITests.swift; sourceTree = "<group>"; };
-		707AD4F12A24CAAA0037DC42 /* PickUpAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		707AD5022A24CCA90037DC42 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		707AD4E12A24CAAA0037DC42 /* HomeRentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeRentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AD4E52A24CAAA0037DC42 /* HomeRentalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalAppTests.swift; sourceTree = "<group>"; };
+		707AD4EB2A24CAAA0037DC42 /* HomeRentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeRentalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707AD4EF2A24CAAA0037DC42 /* HomeRentalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalAppUITests.swift; sourceTree = "<group>"; };
+		707AD4F12A24CAAA0037DC42 /* HomeRentalAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRentalAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		707AD5022A24CCA90037DC42 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		707AD5052A24D11C0037DC42 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		707AD5082A24D2370037DC42 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		707AD5092A24D2370037DC42 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -109,6 +118,15 @@
 		707AD52E2A24D3AF0037DC42 /* Raleway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raleway.swift; sourceTree = "<group>"; };
 		707AD5312A24D52D0037DC42 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		707AD5342A24D5CB0037DC42 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		709164662A2749BD00AAD66B /* HomeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailScreen.swift; sourceTree = "<group>"; };
+		709164682A2749DA00AAD66B /* HomeDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailCard.swift; sourceTree = "<group>"; };
+		70A1BD112A274C4800E310A8 /* RoundedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonView.swift; sourceTree = "<group>"; };
+		70A1BD132A2758FD00E310A8 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		70A1BD152A27609000E310A8 /* HomeOwnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOwnerView.swift; sourceTree = "<group>"; };
+		70A1BD172A27633C00E310A8 /* HomeDetailMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailMapView.swift; sourceTree = "<group>"; };
+		70A1BD192A27651700E310A8 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		70A1BD1D2A2766E800E310A8 /* HomeDetailRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailRentView.swift; sourceTree = "<group>"; };
+		70A1BD1F2A2769BB00E310A8 /* HomeDetailGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailGalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +157,9 @@
 		707AD4C82A24CAA90037DC42 = {
 			isa = PBXGroup;
 			children = (
-				707AD4D32A24CAA90037DC42 /* PickUpApp */,
-				707AD4E42A24CAAA0037DC42 /* PickUpAppTests */,
-				707AD4EE2A24CAAA0037DC42 /* PickUpAppUITests */,
+				707AD4D32A24CAA90037DC42 /* HomeRental */,
+				707AD4E42A24CAAA0037DC42 /* HomeRentalAppTests */,
+				707AD4EE2A24CAAA0037DC42 /* HomeRentalAppUITests */,
 				707AD4D22A24CAA90037DC42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,14 +167,14 @@
 		707AD4D22A24CAA90037DC42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				707AD4D12A24CAA90037DC42 /* PickUpApp.app */,
-				707AD4E12A24CAAA0037DC42 /* PickUpAppTests.xctest */,
-				707AD4EB2A24CAAA0037DC42 /* PickUpAppUITests.xctest */,
+				707AD4D12A24CAA90037DC42 /* HomeRental.app */,
+				707AD4E12A24CAAA0037DC42 /* HomeRentalTests.xctest */,
+				707AD4EB2A24CAAA0037DC42 /* HomeRentalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		707AD4D32A24CAA90037DC42 /* PickUpApp */ = {
+		707AD4D32A24CAA90037DC42 /* HomeRental */ = {
 			isa = PBXGroup;
 			children = (
 				707AD52C2A24D24F0037DC42 /* Info.plist */,
@@ -167,7 +185,7 @@
 				707AD4FE2A24CC4C0037DC42 /* Feature */,
 				707AD4DA2A24CAAA0037DC42 /* Preview Content */,
 			);
-			path = PickUpApp;
+			path = HomeRental;
 			sourceTree = "<group>";
 		};
 		707AD4DA2A24CAAA0037DC42 /* Preview Content */ = {
@@ -178,21 +196,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		707AD4E42A24CAAA0037DC42 /* PickUpAppTests */ = {
+		707AD4E42A24CAAA0037DC42 /* HomeRentalAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				707AD4E52A24CAAA0037DC42 /* PickUpAppTests.swift */,
+				707AD4E52A24CAAA0037DC42 /* HomeRentalAppTests.swift */,
 			);
-			path = PickUpAppTests;
+			path = HomeRentalAppTests;
 			sourceTree = "<group>";
 		};
-		707AD4EE2A24CAAA0037DC42 /* PickUpAppUITests */ = {
+		707AD4EE2A24CAAA0037DC42 /* HomeRentalAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				707AD4EF2A24CAAA0037DC42 /* PickUpAppUITests.swift */,
-				707AD4F12A24CAAA0037DC42 /* PickUpAppUITestsLaunchTests.swift */,
+				707AD4EF2A24CAAA0037DC42 /* HomeRentalAppUITests.swift */,
+				707AD4F12A24CAAA0037DC42 /* HomeRentalAppUITestsLaunchTests.swift */,
 			);
-			path = PickUpAppUITests;
+			path = HomeRentalAppUITests;
 			sourceTree = "<group>";
 		};
 		707AD4FE2A24CC4C0037DC42 /* Feature */ = {
@@ -200,6 +218,7 @@
 			children = (
 				707AD5042A24CCDA0037DC42 /* Views */,
 				707AD4FF2A24CC530037DC42 /* Home */,
+				709164602A273F9B00AAD66B /* HomeDetail */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -207,6 +226,7 @@
 		707AD4FF2A24CC530037DC42 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				709164642A27401300AAD66B /* Screen */,
 				707AD5012A24CC9E0037DC42 /* View */,
 			);
 			path = Home;
@@ -215,7 +235,12 @@
 		707AD5012A24CC9E0037DC42 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				707AD5022A24CCA90037DC42 /* HomeView.swift */,
+				70105BB22A261E7700A06969 /* BestForYouView.swift */,
+				70105BB02A26158400A06969 /* NearFromYouCard.swift */,
+				70105BAE2A26146400A06969 /* ListHeaderView.swift */,
+				70105BAC2A260AE800A06969 /* FilterListView.swift */,
+				70105BA62A25FBDC00A06969 /* SearchView.swift */,
+				707AD5052A24D11C0037DC42 /* LocationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,15 +248,10 @@
 		707AD5042A24CCDA0037DC42 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				707AD5052A24D11C0037DC42 /* LocationView.swift */,
-				70105BA62A25FBDC00A06969 /* SearchView.swift */,
 				70105BA82A26026800A06969 /* FilterButton.swift */,
-				70105BAC2A260AE800A06969 /* FilterListView.swift */,
 				70105BAA2A26051F00A06969 /* OceanBlueGradient.swift */,
-				70105BAE2A26146400A06969 /* ListHeaderView.swift */,
-				70105BB02A26158400A06969 /* NearFromYouCard.swift */,
-				70105BB22A261E7700A06969 /* BestForYouView.swift */,
 				70105BB42A2624CB00A06969 /* FlatLinkStyle.swift */,
+				70A1BD112A274C4800E310A8 /* RoundedButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				707AD52E2A24D3AF0037DC42 /* Raleway.swift */,
+				70A1BD192A27651700E310A8 /* City.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,18 +304,56 @@
 			children = (
 				707AD4D82A24CAAA0037DC42 /* Assets.xcassets */,
 				707AD5342A24D5CB0037DC42 /* Color.xcassets */,
-				707AD4D42A24CAA90037DC42 /* PickUpApp.swift */,
+				707AD4D42A24CAA90037DC42 /* HomeRentalApp.swift */,
 				707AD4D62A24CAA90037DC42 /* ContentView.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		709164602A273F9B00AAD66B /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				709164652A2749AE00AAD66B /* Screen */,
+				709164612A273FEC00AAD66B /* View */,
+			);
+			path = HomeDetail;
+			sourceTree = "<group>";
+		};
+		709164612A273FEC00AAD66B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				709164682A2749DA00AAD66B /* HomeDetailCard.swift */,
+				70A1BD132A2758FD00E310A8 /* DescriptionView.swift */,
+				70A1BD152A27609000E310A8 /* HomeOwnerView.swift */,
+				70A1BD1F2A2769BB00E310A8 /* HomeDetailGalleryView.swift */,
+				70A1BD172A27633C00E310A8 /* HomeDetailMapView.swift */,
+				70A1BD1D2A2766E800E310A8 /* HomeDetailRentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		709164642A27401300AAD66B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				707AD5022A24CCA90037DC42 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		709164652A2749AE00AAD66B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				709164662A2749BD00AAD66B /* HomeDetailScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		707AD4D02A24CAA90037DC42 /* PickUpApp */ = {
+		707AD4D02A24CAA90037DC42 /* HomeRental */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707AD4F52A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpApp" */;
+			buildConfigurationList = 707AD4F52A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRental" */;
 			buildPhases = (
 				707AD4CD2A24CAA90037DC42 /* Sources */,
 				707AD4CE2A24CAA90037DC42 /* Frameworks */,
@@ -304,14 +363,14 @@
 			);
 			dependencies = (
 			);
-			name = PickUpApp;
+			name = HomeRental;
 			productName = PickUpApp;
-			productReference = 707AD4D12A24CAA90037DC42 /* PickUpApp.app */;
+			productReference = 707AD4D12A24CAA90037DC42 /* HomeRental.app */;
 			productType = "com.apple.product-type.application";
 		};
-		707AD4E02A24CAAA0037DC42 /* PickUpAppTests */ = {
+		707AD4E02A24CAAA0037DC42 /* HomeRentalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707AD4F82A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpAppTests" */;
+			buildConfigurationList = 707AD4F82A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRentalTests" */;
 			buildPhases = (
 				707AD4DD2A24CAAA0037DC42 /* Sources */,
 				707AD4DE2A24CAAA0037DC42 /* Frameworks */,
@@ -322,14 +381,14 @@
 			dependencies = (
 				707AD4E32A24CAAA0037DC42 /* PBXTargetDependency */,
 			);
-			name = PickUpAppTests;
+			name = HomeRentalTests;
 			productName = PickUpAppTests;
-			productReference = 707AD4E12A24CAAA0037DC42 /* PickUpAppTests.xctest */;
+			productReference = 707AD4E12A24CAAA0037DC42 /* HomeRentalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		707AD4EA2A24CAAA0037DC42 /* PickUpAppUITests */ = {
+		707AD4EA2A24CAAA0037DC42 /* HomeRentalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707AD4FB2A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpAppUITests" */;
+			buildConfigurationList = 707AD4FB2A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRentalUITests" */;
 			buildPhases = (
 				707AD4E72A24CAAA0037DC42 /* Sources */,
 				707AD4E82A24CAAA0037DC42 /* Frameworks */,
@@ -340,9 +399,9 @@
 			dependencies = (
 				707AD4ED2A24CAAA0037DC42 /* PBXTargetDependency */,
 			);
-			name = PickUpAppUITests;
+			name = HomeRentalUITests;
 			productName = PickUpAppUITests;
-			productReference = 707AD4EB2A24CAAA0037DC42 /* PickUpAppUITests.xctest */;
+			productReference = 707AD4EB2A24CAAA0037DC42 /* HomeRentalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -368,7 +427,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 707AD4CC2A24CAA90037DC42 /* Build configuration list for PBXProject "PickUpApp" */;
+			buildConfigurationList = 707AD4CC2A24CAA90037DC42 /* Build configuration list for PBXProject "HomeRental" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -381,9 +440,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				707AD4D02A24CAA90037DC42 /* PickUpApp */,
-				707AD4E02A24CAAA0037DC42 /* PickUpAppTests */,
-				707AD4EA2A24CAAA0037DC42 /* PickUpAppUITests */,
+				707AD4D02A24CAA90037DC42 /* HomeRental */,
+				707AD4E02A24CAAA0037DC42 /* HomeRentalTests */,
+				707AD4EA2A24CAAA0037DC42 /* HomeRentalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -439,19 +498,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				70105BB52A2624CB00A06969 /* FlatLinkStyle.swift in Sources */,
-				707AD5032A24CCA90037DC42 /* HomeView.swift in Sources */,
+				707AD5032A24CCA90037DC42 /* HomeScreen.swift in Sources */,
 				70105BA92A26026800A06969 /* FilterButton.swift in Sources */,
 				70105BB12A26158400A06969 /* NearFromYouCard.swift in Sources */,
 				70105BA32A25E27600A06969 /* Color+Extension.swift in Sources */,
 				707AD5062A24D11C0037DC42 /* LocationView.swift in Sources */,
+				70A1BD122A274C4800E310A8 /* RoundedButtonView.swift in Sources */,
+				70A1BD182A27633C00E310A8 /* HomeDetailMapView.swift in Sources */,
+				70A1BD142A2758FD00E310A8 /* DescriptionView.swift in Sources */,
 				707AD5322A24D52D0037DC42 /* View+Extension.swift in Sources */,
+				70A1BD162A27609000E310A8 /* HomeOwnerView.swift in Sources */,
 				70105BB32A261E7700A06969 /* BestForYouView.swift in Sources */,
 				70105BAD2A260AE800A06969 /* FilterListView.swift in Sources */,
+				70A1BD202A2769BB00E310A8 /* HomeDetailGalleryView.swift in Sources */,
+				709164692A2749DA00AAD66B /* HomeDetailCard.swift in Sources */,
 				70105BA72A25FBDC00A06969 /* SearchView.swift in Sources */,
 				70105BAB2A26051F00A06969 /* OceanBlueGradient.swift in Sources */,
 				707AD52F2A24D3AF0037DC42 /* Raleway.swift in Sources */,
 				707AD4D72A24CAA90037DC42 /* ContentView.swift in Sources */,
-				707AD4D52A24CAA90037DC42 /* PickUpApp.swift in Sources */,
+				70A1BD1A2A27651700E310A8 /* City.swift in Sources */,
+				709164672A2749BD00AAD66B /* HomeDetailScreen.swift in Sources */,
+				70A1BD1E2A2766E800E310A8 /* HomeDetailRentView.swift in Sources */,
+				707AD4D52A24CAA90037DC42 /* HomeRentalApp.swift in Sources */,
 				70105BAF2A26146400A06969 /* ListHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,7 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707AD4E62A24CAAA0037DC42 /* PickUpAppTests.swift in Sources */,
+				707AD4E62A24CAAA0037DC42 /* HomeRentalAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +536,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707AD4F22A24CAAA0037DC42 /* PickUpAppUITestsLaunchTests.swift in Sources */,
-				707AD4F02A24CAAA0037DC42 /* PickUpAppUITests.swift in Sources */,
+				707AD4F22A24CAAA0037DC42 /* HomeRentalAppUITestsLaunchTests.swift in Sources */,
+				707AD4F02A24CAAA0037DC42 /* HomeRentalAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,12 +546,12 @@
 /* Begin PBXTargetDependency section */
 		707AD4E32A24CAAA0037DC42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 707AD4D02A24CAA90037DC42 /* PickUpApp */;
+			target = 707AD4D02A24CAA90037DC42 /* HomeRental */;
 			targetProxy = 707AD4E22A24CAAA0037DC42 /* PBXContainerItemProxy */;
 		};
 		707AD4ED2A24CAAA0037DC42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 707AD4D02A24CAA90037DC42 /* PickUpApp */;
+			target = 707AD4D02A24CAA90037DC42 /* HomeRental */;
 			targetProxy = 707AD4EC2A24CAAA0037DC42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -610,10 +678,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PickUpApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HomeRental/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickUpApp/Info.plist;
+				INFOPLIST_FILE = HomeRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -624,7 +692,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -639,10 +707,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PickUpApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HomeRental/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickUpApp/Info.plist;
+				INFOPLIST_FILE = HomeRental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -653,7 +721,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -671,12 +739,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickUpApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeRental.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeRental";
 			};
 			name = Debug;
 		};
@@ -690,12 +758,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PickUpApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeRental.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeRental";
 			};
 			name = Release;
 		};
@@ -707,12 +775,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PickUpApp;
+				TEST_TARGET_NAME = HomeRentalApp;
 			};
 			name = Debug;
 		};
@@ -724,19 +792,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salman.PickUpAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salman.HomeRentalAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PickUpApp;
+				TEST_TARGET_NAME = HomeRentalApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		707AD4CC2A24CAA90037DC42 /* Build configuration list for PBXProject "PickUpApp" */ = {
+		707AD4CC2A24CAA90037DC42 /* Build configuration list for PBXProject "HomeRental" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707AD4F32A24CAAA0037DC42 /* Debug */,
@@ -745,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707AD4F52A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpApp" */ = {
+		707AD4F52A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRental" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707AD4F62A24CAAA0037DC42 /* Debug */,
@@ -754,7 +822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707AD4F82A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpAppTests" */ = {
+		707AD4F82A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRentalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707AD4F92A24CAAA0037DC42 /* Debug */,
@@ -763,7 +831,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707AD4FB2A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "PickUpAppUITests" */ = {
+		707AD4FB2A24CAAA0037DC42 /* Build configuration list for PBXNativeTarget "HomeRentalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707AD4FC2A24CAAA0037DC42 /* Debug */,

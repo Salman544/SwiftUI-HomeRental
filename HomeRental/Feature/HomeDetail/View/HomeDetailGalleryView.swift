@@ -7,9 +7,49 @@
 
 import SwiftUI
 
-struct HomeDetailGalleryView: View {
+struct GalleryCardView: View {
+    
+    var image: String
+    var showMoreText: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image(image)
+                .resizable()
+                .frame(height: 72)
+                .overlay {
+                    if showMoreText {
+                        LinearGradient(colors: [
+                            Color(hex: "#030D0D").opacity(0), Color.black.opacity(0.4)
+                        ], startPoint: .top, endPoint: .center)
+                    }
+                }
+                .cornerRadius(6)
+            if showMoreText {
+                Text("+5")
+                    .raleway(.semiBold, 35)
+                    .foregroundColor(.white)
+            }
+        }
+    }
+}
+
+struct HomeDetailGalleryView: View {
+    
+    private var gridItem: GridItem {
+        GridItem(.flexible())
+    }
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Gallery")
+                .raleway(.medium, 24)
+            LazyVGrid(columns: [gridItem, gridItem, gridItem, gridItem]) {
+                ForEach(0..<4) { id in
+                    GalleryCardView(image: "gallery\(id)", showMoreText: id == 3)
+                }
+            }
+        }
     }
 }
 

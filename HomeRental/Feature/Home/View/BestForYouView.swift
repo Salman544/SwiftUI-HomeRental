@@ -1,6 +1,6 @@
 //
 //  BestForYouView.swift
-//  PickUpApp
+//  HomeRentalApp
 //
 //  Created by Muhammad Salman on 5/30/23.
 //

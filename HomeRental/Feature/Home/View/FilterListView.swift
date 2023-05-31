@@ -1,6 +1,6 @@
 //
 //  FilterListView.swift
-//  PickUpApp
+//  HomeRentalApp
 //
 //  Created by Muhammad Salman on 5/30/23.
 //
@@ -18,7 +18,7 @@ struct FilterListView: View {
             onClick?(title)
         } label: {
             Text(title)
-                .raleway(title == selectedItem ? .medium : .regular, 16)
+                .raleway(title == selectedItem ? .bold : .regular, 16)
                 .foregroundColor(title == selectedItem ? .white : .black)
                 .padding(16)
                 .background(

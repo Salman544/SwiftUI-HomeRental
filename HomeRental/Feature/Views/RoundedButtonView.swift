@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct RoundedButtonView: View {
+    
+    var image: String
+    var onClick: (() -> Void)? = nil
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            onClick?()
+        } label: {
+            Circle()
+                .frame(width: 34, height: 34)
+                .foregroundColor(.black.opacity(0.24))
+                .overlay {
+                    Image(systemName: image)
+                }
+        }
+        .foregroundColor(.white)
+        .background(.clear)
+
     }
 }
 
 struct RoundedButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        RoundedButtonView()
+        RoundedButtonView(image: "chevron.backward")
+            .previewLayout(.sizeThatFits)
     }
 }
