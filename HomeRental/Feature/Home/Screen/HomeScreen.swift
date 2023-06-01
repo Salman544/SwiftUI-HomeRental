@@ -60,6 +60,7 @@ struct HomeScreen: View {
                     .disabled(menuTapped)
                 }
             }
+            .navigationBarHidden(true)
         }
         .padding()
         .edgesIgnoringSafeArea(.bottom)
